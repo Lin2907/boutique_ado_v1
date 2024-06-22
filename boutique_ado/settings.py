@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-cx(xajz4n&&e^hl)d%acixoq5xi&=nt91-i7)1ijpc1ej2dqil
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['8000-lin2907-boutiqueadov1-nisikcrmlne.ws-eu114.gitpod.io']
+ALLOWED_HOSTS = ['8000-lin2907-boutiqueadov1-uxqvyp720fg.ws-eu114.gitpod.io']
 
 
 # Application definition
@@ -91,7 +91,7 @@ ACCOUNT_EMAIL_VERIFICATION = 'mandatory'
 ACCOUNT_SIGNUP_EMAIL_ENTER_TWICE = True
 ACCOUNT_USERNAME_MIN_LENGTH = 4
 LOGIN_URL = '/accounts/login/'
-LOGIN_REDIRECT_URL = '/ success'
+LOGIN_REDIRECT_URL = '/'
 
 WSGI_APPLICATION = 'boutique_ado.wsgi.application'
 
